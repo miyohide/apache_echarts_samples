@@ -1,4 +1,4 @@
-var myChart = echarts.init(document.getElementById('main'));
+var index = echarts.init(document.getElementById('main'));
 
 var option = {
     title: {
@@ -21,4 +21,4 @@ var option = {
     ]
 };
 
-myChart.setOption(option);
+index.setOption(option);
