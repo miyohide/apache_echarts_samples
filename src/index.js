@@ -1,3 +1,5 @@
+import * as echarts from 'echarts';
+
 var index = echarts.init(document.getElementById('main'));
 
 var option = {
