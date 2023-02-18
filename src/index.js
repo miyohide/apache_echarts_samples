@@ -1,8 +1,8 @@
 import * as echarts from 'echarts';
 
-var index = echarts.init(document.getElementById('main'));
+const index = echarts.init(document.getElementById('main'));
 
-var option = {
+const option = {
     title: {
         text: 'Hello ECharts'
     },
