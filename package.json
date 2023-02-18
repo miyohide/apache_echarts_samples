@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "format": "prettier --write 'src/**/*.js'",
     "build": "webpack"
   },
   "dependencies": {
